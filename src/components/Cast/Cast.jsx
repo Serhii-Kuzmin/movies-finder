@@ -1,8 +1,8 @@
 import { Loader } from 'components/Loader/Loader';
-import { LiStyle, UlStyle } from 'components/MoviesList/MoviesList.styled';
+import { LiStyle, UlStyle } from 'components/MoviesList.jsx/MoviesList.styled';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { featchMovieCast, onFeatchError } from 'services/api';
+import { featchMovieCast, onFetchError } from 'services/api';
 
 const endPoint = '/movie';
 
@@ -20,7 +20,7 @@ const Cast = () => {
       .then(data => {
         setCast(data.cast);
       })
-      .catch(onFeatchError)
+      .catch(onFetchError)
       .finally(() => setLoading(false));
   }, [movieId]);
   return (

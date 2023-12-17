@@ -2,7 +2,7 @@ import axios from 'axios';
 import { Notify } from 'notiflix';
 
 const URL = 'https://api.themoviedb.org/3';
-const KEY = '15e36404828927e570d28a984868d05f';
+const KEY = '3f29e277b19fc95c68f9d05af1b05d52';
 
 export const paramsForNotify = {
   position: 'center-center',
@@ -41,7 +41,7 @@ export async function featchMovieReviews(endPoint, movieId) {
   return response.data;
 }
 
-export function onFeatchError() {
+export function onFetchError() {
   Notify.failure(
     'Oops! Something went wrong! Try reloading the page or make another choice!',
     paramsForNotify

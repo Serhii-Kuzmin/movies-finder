@@ -1,5 +1,5 @@
 import { Loader } from 'components/Loader/Loader';
-import MoviesList from 'components/MoviesList/MoviesList';
+import MoviesList from 'components/MoviesList.jsx/MoviesList';
 import { useEffect, useState } from 'react';
 import { fetchMovies, onFetchError } from 'services/api';
 import { SectionStyle } from './Pages.styled';

@@ -1,5 +1,5 @@
 import { Loader } from 'components/Loader/Loader';
-import MoviesList from 'components/MoviesList/MoviesList';
+import MoviesList from 'components/MoviesList.jsx/MoviesList';
 import Searchbar from 'components/Search/Search';
 import { Notify } from 'notiflix';
 import { useEffect, useState } from 'react';
