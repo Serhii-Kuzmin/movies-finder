@@ -20,7 +20,7 @@ body {
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  background-color: #fff;
+  background-color: #d7dad1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -60,5 +60,5 @@ a {
 }
 
 a:active {
-  color: orange;
+  color: #45a049;
 }

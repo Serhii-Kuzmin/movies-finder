@@ -1,8 +1,5 @@
-import { FooterStyle } from "./Pages.styled"
-
+import { FooterStyle } from './Pages.styled';
 
 export const Footer = () => {
-    return <FooterStyle>
-        <p>Movies finder footer</p>
-    </FooterStyle>
+  return <FooterStyle></FooterStyle>;
 };

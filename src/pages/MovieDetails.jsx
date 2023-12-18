@@ -47,7 +47,7 @@ const MovieDetails = () => {
 
   return (
     <SectionStyle>
-      <StyledLink to={backLinkRef.current}>{'BACK'}</StyledLink>
+      <StyledLink to={backLinkRef.current}>{'GO BACK'}</StyledLink>
       <h2>Movie Details:</h2>
       {loading && <Loader />}
       {movie && (

@@ -6,6 +6,8 @@ export const SectionStyle = styled.section`
   display: flex;
   flex-direction: column;
   gap: 20px;
+  flex-grow: 1;
+  min-height: 100vh;
 `;
 
 export const StyledLink = styled(Link)`
@@ -18,7 +20,7 @@ export const StyledLink = styled(Link)`
   cursor: pointer;
   text-align: center;
   text-decoration: none;
-  width: 100px;
+  width: 120px;
   transition: background-color 0.3s, box-shadow 0.3s;
   &:hover {
     color: #fff;
@@ -50,7 +52,6 @@ export const AddListStyle = styled.ul`
 export const FooterStyle = styled.div`
   bottom: 0;
   left: 0;
-  position: fixed;
   display: flex;
   align-items: center;
   width: 100%;
