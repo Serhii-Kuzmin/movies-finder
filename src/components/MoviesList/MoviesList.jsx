@@ -13,7 +13,7 @@ const MoviesList = ({ films }) => {
             <img
               src={
                 poster_path
-                  ? `http://image.tmdb.org/t/p/w154${poster_path}`
+                  ? `https://image.tmdb.org/t/p/w154${poster_path}`
                   : 'https://www.braasco.com//ASSETS/IMAGES/ITEMS/ZOOM/no_image.jpeg'
               }
               alt={title}
